@@ -2,7 +2,6 @@ package com.amg.models;
 
 public class Player {
     String naam;
-    int overworkedhours;
+    int overworkedHours;
     boolean burnout;
-
 }

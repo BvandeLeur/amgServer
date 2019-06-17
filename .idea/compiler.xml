@@ -15,6 +15,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="restapi" target="11" />
+      <module name="websocket" target="1.8" />
       <module name="websockets" target="1.5" />
     </bytecodeTargetLevel>
   </component>

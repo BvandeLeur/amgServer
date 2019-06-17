@@ -5,6 +5,8 @@ import lombok.Setter;
 
 public class Task {
 
+    int id;
+
     //  hoe lang het duurt
     @Getter
     int hour;
@@ -14,7 +16,7 @@ public class Task {
     @Setter
     Player player;
 
-    public Task(int hour) {
+    public Task(int id, int hour) {
         this.hour = hour;
     }
 }

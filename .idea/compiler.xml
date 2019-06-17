@@ -8,8 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="domain" />
         <module name="logic" />
+        <module name="rest" />
         <module name="restapi" />
         <module name="websocket" />
+        <module name="websockets" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

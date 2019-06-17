@@ -12,7 +12,7 @@
         <module>domain</module>
         <module>logic</module>
         <module>websocket</module>
-        <module>restapi</module>
+        <module>rest</module>
     </modules>
 
 

@@ -12,7 +12,9 @@
         <module>rest</module>
         <module>logic</module>
         <module>domain</module>
+        <module>websockets</module>
     </modules>
+
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
@@ -23,6 +25,5 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
-
 
 </project>

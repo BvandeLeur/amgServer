@@ -11,11 +11,11 @@
         <module name="rest" />
         <module name="restapi" />
         <module name="websocket" />
-        <module name="websockets" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="restapi" target="11" />
+      <module name="websockets" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

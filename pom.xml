@@ -9,10 +9,9 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>domain</module>
-        <module>logic</module>
-        <module>websocket</module>
         <module>rest</module>
+        <module>logic</module>
+        <module>domain</module>
     </modules>
 
 

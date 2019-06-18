@@ -1,4 +1,4 @@
-package com.amg;
+package com.amg.rest;
 
 import com.amg.models.GreetingModel;
 import com.amg.models.socketMessage;
@@ -16,6 +16,7 @@ public class MessageController {
     public GreetingModel greeting(socketMessage message) throws Exception {
         Thread.sleep(1000); // simulated delay
         return new GreetingModel("Hello, " + HtmlUtils.htmlEscape(message.getName()) + "!");
+
     }
 
 }

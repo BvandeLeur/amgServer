@@ -12,24 +12,27 @@ import java.util.List;
 
 @Service
 public class GameService {
-    private static final int AMMOUNT_OF_WEEKS = 1;
+    private static final int AMMOUNT_OF_WEEKS = 10;
     private static final int NORMAL_WEEK = 30;
     private static final int BURNOUT = 10;
 
-    private int currentWeek = 1;
+    private int currentWeek = 0;
     private int done = 0;
 
     @Getter
     List<Player> players = new ArrayList<Player>();
 
     @Getter
-    List<Week> weeks;
+    List<Week> weeks = new ArrayList<Week>();
 
     public void start() {
-        weeks = new ArrayList<Week>();
         for (int i = 0; i < AMMOUNT_OF_WEEKS; i++) {
             weeks.add(WeekGenerator.generateWeek(players, NORMAL_WEEK, BURNOUT));
         }
+    }
+
+    public Week getWeek(){
+        return weeks.get(currentWeek);
     }
 
     public void doneWithWeek() {
@@ -50,7 +53,7 @@ public class GameService {
         }
     }
 
-    void joinGame(Player p) {
+    public void joinGame(Player p) {
         players.add(p);
     }
 

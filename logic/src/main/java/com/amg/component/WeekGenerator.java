@@ -13,7 +13,7 @@ public class WeekGenerator {
     private static Random rnd = new Random();
 
     private static int calculateMax(int size, int NORMAL_WEEK, int BURNOUT) {
-        return size * (NORMAL_WEEK + BURNOUT) - 5;
+        return 1 * (NORMAL_WEEK + BURNOUT) - 5;
     }
 
     public static Week generateWeek(List<Player> players, int NORMAL_WEEK, int BURNOUT) {

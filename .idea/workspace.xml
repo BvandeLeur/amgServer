@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93e3370d-5da5-41a7-bc98-7f84b726c22c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/amg/models/JoinGameMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/amg/models/WeekMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logic/src/main/java/com/amg/component/WeekGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/logic/src/main/java/com/amg/component/WeekGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logic/src/main/java/com/amg/service/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/logic/src/main/java/com/amg/service/GameService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logic/target/classes/com/amg/component/WeekGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/logic/target/classes/com/amg/component/WeekGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logic/target/classes/com/amg/service/GameService.class" beforeDir="false" afterPath="$PROJECT_DIR$/logic/target/classes/com/amg/service/GameService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rest/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/src/main/java/com/amg/rest/corsfilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest/src/main/java/com/amg/rest/corsfilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/websockets/src/main/java/com/amg/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest/src/main/java/com/amg/rest/MessageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/websockets/src/main/java/com/amg/WebSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest/src/main/java/com/amg/rest/WebSocketConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/src/main/java/com/amg/rest/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/websockets/src/main/java/com/amg/WebsocketService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/src/main/java/com/amg/rest/WebSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/websockets/src/main/java/com/amg/WebSocketConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websockets/src/main/resources/static/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/websockets/src/main/resources/static/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websockets/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/websockets/src/main/resources/static/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/logic/target/" />
@@ -24,10 +30,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rest/src/main/java/com/amg/rest/RestApplication.java">
+        <entry file="file://$PROJECT_DIR$/websockets/src/main/java/com/amg/WebsocketService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="240">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,10 +42,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rest/src/main/java/com/amg/rest/corsfilter.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/5.1.7.RELEASE/spring-messaging-5.1.7.RELEASE.jar!/org/springframework/messaging/handler/invocation/InvocableHandlerMethod.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="85" selection-start-line="17" selection-start-column="85" selection-end-line="17" selection-end-column="85" />
+            <state relative-caret-position="1309">
+              <caret line="97" selection-start-line="97" selection-end-line="97" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/amg/models/WeekMessage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/websockets/src/main/java/com/amg/WebSocketConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,10 +72,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rest/src/main/java/com/amg/rest/WebSocketConfig.java">
+        <entry file="file://$PROJECT_DIR$/websockets/src/main/resources/static/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/websockets/src/main/resources/static/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="34" column="86" selection-start-line="34" selection-start-column="86" selection-end-line="34" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rest/src/main/java/com/amg/controllers/mainController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-end-line="16" />
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,67 +102,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rest/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/logic/src/main/java/com/amg/component/WeekGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="18" selection-start-column="18" selection-end-column="18" />
+            <state relative-caret-position="125">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#638#644#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/amg/models/Task.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/websockets/src/main/resources/static/app.js">
+        <entry file="file://$PROJECT_DIR$/logic/src/main/java/com/amg/service/GameService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rest/src/main/java/com/amg/rest/MessageController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="-62">
+              <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/amg/models/socketMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/amg/models/GreetingModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/domain/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1309">
-              <caret line="77" column="17" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rest/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1360">
-              <caret line="80" column="19" selection-start-line="21" selection-start-column="8" selection-end-line="80" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -142,19 +157,15 @@
       <list>
         <option value="$PROJECT_DIR$/domain/src/main/java/com/amg/models/Slot.java" />
         <option value="$PROJECT_DIR$/domain/src/main/java/com/amg/models/Week.java" />
-        <option value="$PROJECT_DIR$/rest/pom.xml" />
         <option value="$PROJECT_DIR$/rest/src/main/java/com/amg/controllers/RestController.java" />
         <option value="$PROJECT_DIR$/rest/src/main/java/com/amg/controllers/PlayerController.java" />
         <option value="$PROJECT_DIR$/logic/src/main/java/com/amg/service/Game.java" />
         <option value="$PROJECT_DIR$/rest/src/main/java/com/amg/controllers/mainController.java" />
         <option value="$PROJECT_DIR$/domain/src/main/java/com/amg/models/Task.java" />
         <option value="$PROJECT_DIR$/domain/src/main/java/com/amg/models/Player.java" />
-        <option value="$PROJECT_DIR$/logic/src/main/java/com/amg/component/WeekGenerator.java" />
         <option value="$PROJECT_DIR$/domain/src/main/java/com/amg/models/socketMessage.java" />
         <option value="$PROJECT_DIR$/domain/src/main/java/com/amg/models/GreetingModel.java" />
         <option value="$PROJECT_DIR$/websockets/src/main/java/com/amg/application.java" />
-        <option value="$PROJECT_DIR$/logic/src/main/java/com/amg/service/GameService.java" />
-        <option value="$PROJECT_DIR$/websockets/src/main/resources/static/index.html" />
         <option value="$PROJECT_DIR$/rest/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/rest/src/main/java/com/amg/rest/RestApplication.java" />
         <option value="$PROJECT_DIR$/websockets/src/main/java/com/amg/WebSocketConfig.java" />
@@ -162,10 +173,17 @@
         <option value="$PROJECT_DIR$/domain/pom.xml" />
         <option value="$PROJECT_DIR$/rest/src/main/java/com/amg/rest/corsfilter.java" />
         <option value="$PROJECT_DIR$/websockets/pom.xml" />
-        <option value="$PROJECT_DIR$/websockets/src/main/java/com/amg/MessageController.java" />
         <option value="$PROJECT_DIR$/rest/src/main/java/com/amg/rest/WebSocketConfig.java" />
         <option value="$PROJECT_DIR$/rest/src/main/java/com/amg/rest/MessageController.java" />
+        <option value="$PROJECT_DIR$/websockets/src/main/java/com/amg/MessageController.java" />
+        <option value="$PROJECT_DIR$/rest/pom.xml" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/com/amg/models/JoinGame.java" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/com/amg/models/WeekMessage.java" />
+        <option value="$PROJECT_DIR$/logic/src/main/java/com/amg/component/WeekGenerator.java" />
+        <option value="$PROJECT_DIR$/websockets/src/main/resources/static/index.html" />
+        <option value="$PROJECT_DIR$/websockets/src/main/java/com/amg/WebsocketService.java" />
         <option value="$PROJECT_DIR$/websockets/src/main/resources/static/app.js" />
+        <option value="$PROJECT_DIR$/logic/src/main/java/com/amg/service/GameService.java" />
       </list>
     </option>
   </component>
@@ -183,7 +201,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
+    <option name="x" value="50" />
+    <option name="y" value="-18" />
     <option name="width" value="975" />
     <option name="height" value="1050" />
   </component>
@@ -252,6 +271,61 @@
             <path>
               <item name="amgServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="amgServer" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="amgServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amgServer" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="amgServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amgServer" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="amgServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amgServer" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="amgServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amgServer" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="amg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="amgServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amgServer" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="amg" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="amgServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amgServer" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="amg" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="amgServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amgServer" type="462c0819:PsiDirectoryNode" />
               <item name="rest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -292,6 +366,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="amg" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="amgServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amgServer" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="amg" type="462c0819:PsiDirectoryNode" />
               <item name="rest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -319,6 +403,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="amgServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amgServer" type="462c0819:PsiDirectoryNode" />
+              <item name="websockets" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="amg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="amgServer" type="b2602c69:ProjectViewProjectNode" />
@@ -361,7 +454,7 @@
     <property name="SearchEverywhereHistoryKey" value="disconnect&#9;FILE&#9;jrt://C:/Program Files/Java/jdk-11.0.2!/jdk.jconsole/sun/tools/jconsole/resources/disconnected16.png" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560852002983" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560874436500" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/logic/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -414,7 +507,9 @@
       <workItem from="1560761048831" duration="16993000" />
       <workItem from="1560790214146" duration="2520000" />
       <workItem from="1560792816506" duration="9800000" />
-      <workItem from="1560844222034" duration="6799000" />
+      <workItem from="1560844222034" duration="8543000" />
+      <workItem from="1560857731949" duration="8110000" />
+      <workItem from="1560873893950" duration="503000" />
     </task>
     <task id="LOCAL-00001" summary="Lombok , websockets.">
       <created>1560792913083</created>
@@ -430,17 +525,33 @@
       <option name="project" value="LOCAL" />
       <updated>1560798115340</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Websocket working">
+      <created>1560852047505</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560852047505</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36112000" />
+    <option name="totallyTimeSpent" value="46469000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26040268" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26778522" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -450,11 +561,11 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39858156" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39858156" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32907802" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -475,7 +586,7 @@
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26040268" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2637584" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -489,7 +600,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39858156" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32907802" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -518,7 +629,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lombok , websockets." />
-    <option name="LAST_COMMIT_MESSAGE" value="Lombok , websockets." />
+    <MESSAGE value="Websocket working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Websocket working" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/logic/src/main/java/com/amg/component/WeekGenerator.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/amg/models/temp.java" />
@@ -532,73 +656,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/amg/models/Week.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/amg/websocket/WebsocketApplication.java" />
-    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/amg/models/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logic/src/main/java/com/amg/component/WeekGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="67" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/websocket/pom.xml" />
     <entry file="file://$PROJECT_DIR$/websockets/src/main/java/com/amg/application.java" />
-    <entry file="file://$PROJECT_DIR$/rest/src/main/java/com/amg/controllers/mainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logic/src/main/java/com/amg/service/GameService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="77" column="33" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jrt://C:/Program Files/Java/jdk-11.0.2!/jdk.jconsole/sun/tools/jconsole/resources/disconnected16.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/amg/models/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/websockets/src/main/resources/static/main.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/websockets/src/main/resources/static/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rest/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -614,23 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rest/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="80" column="19" selection-start-line="21" selection-start-column="8" selection-end-line="80" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest/src/main/java/com/amg/rest/corsfilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="85" selection-start-line="17" selection-start-column="85" selection-end-line="17" selection-end-column="85" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jrt://C:/Program Files/Java/jdk-11.0.2!/jdk.javadoc/jdk/javadoc/internal/doclets/formats/html/resources/jquery/jquery-3.3.1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -638,10 +686,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/amg/models/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest/src/main/java/com/amg/rest/corsfilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="17" column="85" selection-start-line="17" selection-start-column="85" selection-end-line="17" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/websockets/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="70" column="66" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="66" />
+        <state relative-caret-position="187">
+          <caret line="11" column="21" selection-start-line="11" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="76" column="33" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -652,10 +728,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/amg/models/JoinGameResult.java" />
     <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/amg/models/GreetingModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="27" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/amg/models/Week.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/amg/models/JoinGameMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#86#87#0" expanded="true" />
+            <element signature="e#124#125#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -669,20 +768,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rest/src/main/java/com/amg/rest/WebSocketConfig.java">
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/amg/models/WeekMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-end-line="16" />
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websockets/src/main/java/com/amg/WebSocketConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rest/src/main/java/com/amg/rest/MessageController.java">
+    <entry file="file://$PROJECT_DIR$/websockets/src/main/resources/static/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="578">
+          <caret line="34" column="86" selection-start-line="34" selection-start-column="86" selection-end-line="34" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest/src/main/java/com/amg/controllers/mainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -691,8 +804,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/websockets/src/main/resources/static/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
+        <state relative-caret-position="187">
+          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/amg/models/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logic/src/main/java/com/amg/component/WeekGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#638#644#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websockets/src/main/java/com/amg/WebsocketService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/5.1.7.RELEASE/spring-messaging-5.1.7.RELEASE.jar!/org/springframework/messaging/handler/invocation/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logic/src/main/java/com/amg/service/GameService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62">
+          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
